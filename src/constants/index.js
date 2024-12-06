@@ -1,6 +1,7 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
+    bev,
     contact,
     css,
     estate,
@@ -63,16 +64,6 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
@@ -85,16 +76,6 @@ export const skills = [
     {
         imageUrl: react,
         name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
         type: "Frontend",
     },
     {
@@ -186,15 +167,22 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Whac O Mole',
+        description: 'Create a Game where By the use Of Java And its Swing Components.',
+        link: 'https://github.com/AadityaSalunke707/Whac-A-Mole',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Gym Management System',
+        description: ' The application is built with Java and its Swing Components providing a responsive and user-friendly interface for managing Member and Trainer Payments• The backend is developed using MySQL and provide APIs for CRUD operations on Storing customer data. • MySQL is used to store user information and Payments ensuring data integrity and security for all users.',
+        link: 'https://github.com/AadityaSalunke707/Gym_mgmt_system',
+    },
+    {
+        iconUrl:bev,
+        theme: 'btn-back-yellow',
+        name: 'Bevarages Ecommerce Frontend',
+        description: '• The application is built with PHP, Java Script providing a responsive and user-friendly interface for managing passwords securely. • Blog Section with optimization and SEO (search engine optimization).• Used Canva Design for Posters.',
+        link: 'https://github.com/AadityaSalunke707/beverages_Ecommerce',
     }
 ];
