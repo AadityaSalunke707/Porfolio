@@ -159,7 +159,7 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'www.linkedin.com/in/AadityaSalunke07',
+        link: 'https://www.linkedin.com/in/aadityasalunke07',
     }
 ];
 
